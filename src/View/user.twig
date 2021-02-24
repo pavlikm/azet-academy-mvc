@@ -1,0 +1,13 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+
+    {% if numbers %}
+        {% for nr in numbers %}
+            <li>{{ nr }}</li>
+        {% endfor %}
+    {% endif %}
+
+    asdfsadf {% include 'include.twig' %}
+
+{% endblock %}

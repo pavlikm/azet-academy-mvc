@@ -1,0 +1,1 @@
+<h1>ahoj</h1><?= $name ?> <?= $surname ?>

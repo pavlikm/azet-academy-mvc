@@ -1,0 +1,19 @@
+{
+  "name": "azet/azet-academy",
+  "description": "Azet academy MVC",
+  "version": "master-dev",
+  "authors": [
+    {
+      "name": "Michal Pavlik",
+      "email": "pavlik@firma.azet.sk"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Azet\\MVC\\": "src/"
+    }
+  },
+  "require": {
+    "twig/twig": "^2.0"
+  }
+}
